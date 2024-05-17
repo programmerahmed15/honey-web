@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(75, 29, 11);
+}
+
+i {
+    cursor: pointer;
+}
+
+body {
+    background-image: url(img/brown.jpeg);
+}
+
+.headermain {
+    margin-bottom: 50px;
+}
+
+.logoside {
+    align-items: center;
+    color: white;
+}
+
+.navigation h6 {
+    margin-top: 10px;
+    font-weight: 600;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.navigation h6:hover {
+    color: rgb(217, 98, 38);
+    cursor: pointer;
+
+}
+
+#selected {
+    color: rgb(217, 98, 38);
+}
+
+.logo {
+    height: 120px;
+    width: 35px;
+}
+
+
+
+.row i {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.minicontact {
+    align-items: center;
+}
+
+.minicontact i {
+    margin-left: 20px;
+}
+
+.minicontact a {
+    color: white;
+
+}
+
+.minicontact a:hover {
+    color: rgb(217, 98, 38);
+
+}
+
+.row a:visited {
+    color: white;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+.header-contant {
+    color: white;
+    margin-top: 500px;
+}
+
+.header-contant h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+.header-contant p {
+    font-size: 1rem;
+    margin-top: 20px;
+
+}
+
+.header-contant button {
+    margin-top: 20px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(217, 98, 38);
+    color: white;
+}
+
+.header-contant button:hover {
+    transition: 1s ease;
+    background-color: black;
+}
+
+.header-contant button:active {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.section1 {
+    background-color: rgb(255, 255, 255);
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.section1-main h2 {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.section1-main p {
+    color: rgb(217, 98, 38);
+    font-weight: 600;
+}
+
+.min {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section1-main button {
+    margin-top: 20px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(217, 98, 38);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.section1-main button:hover {
+    transition: 1s ease;
+    background-color: black;
+}
+
+.section1-main button:active {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.section1 figure {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.section2-main h1 {
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section2-main p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.quality figure {
+    background-color: white;
+    border-radius: 1000px;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2-main button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(217, 98, 38);
+    color: white;
+}
+
+.section2-main button:hover {
+    transition: 1s ease;
+    background-color: black;
+}
+
+.section2-main button:active {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.contacts {
+    align-items: center;
+}
+
+.contacts h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.inputs input {
+    /* width: 300px; */
+    height: 50px;
+    margin: 10px;
+    background: none;
+    border: 2px solid white;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+}
+
+.contacts button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(217, 98, 38);
+    color: white;
+}
+
+.contacts button:hover {
+    transition: 1s ease;
+    background-color: black;
+
+}
+
+.contacts button:active {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.iconbar div,
+.iconbar a {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.iconbar a:hover {
+    transition: 1s ease;
+    background-color: rgb(217, 98, 38);
+
+}
+
+.iconbar i {
+    margin: auto;
+}
+
+.footer {
+    border-bottom: 2px solid white;
+}
+
+.footer h5 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer p {
+    margin-top: -10px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.footer p:hover {
+    cursor: pointer;
+    color: rgb(217, 98, 38);
+}
+
+.footer input {
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: gray;
+    outline: none;
+    border: none;
+}
+
+.copymain {
+    align-items: center;
+
+}
+
+.copymain p {
+    margin-top: 20px;
+}
